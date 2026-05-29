@@ -1,0 +1,22 @@
+﻿metadata,value
+stage,09_modeling_dataset_preparation
+project_title,Analisis Sentimen Komentar YouTube terhadap Isu Pelemahan Nilai Rupiah
+source_file,youtube_comments_labeled_20260529_153650.csv
+source_file_modified_time,2026-05-29 15:37:10
+output_modeling_file,youtube_comments_modeling_ready_20260529_171713.csv
+created_at,20260529_171713
+feature_column,text_clean
+target_column,sentiment_label
+initial_rows,3670
+rows_after_dropna,3670
+duplicate_rows_removed,9
+final_rows,3661
+final_columns,2
+allowed_labels,"['negatif', 'netral', 'positif']"
+dominant_label,netral
+dominant_count,2416
+dominant_percentage,65.99
+minority_label,positif
+minority_count,608
+minority_percentage,16.61
+imbalance_ratio,3.97
