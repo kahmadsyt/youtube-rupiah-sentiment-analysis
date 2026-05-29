@@ -1,0 +1,14 @@
+﻿metric,value
+source_file,youtube_comments_raw_20260529_141537.csv
+rows_before_cleaning,3742
+rows_after_cleaning,3670
+rows_removed_total,72
+rows_removed_percentage,1.92
+columns_before_cleaning,13
+columns_after_cleaning,20
+avg_text_original_char_count,110.3
+avg_text_clean_char_count,107.79
+avg_text_original_word_count,16.98
+avg_text_clean_word_count,17.05
+min_clean_char_threshold,5
+min_clean_word_threshold,1
