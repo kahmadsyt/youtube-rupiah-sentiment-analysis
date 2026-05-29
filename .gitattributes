@@ -1,0 +1,13 @@
+# Normalize text files in repository
+* text=auto
+
+# Keep source/config/documentation files consistent
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.ipynb text eol=lf
+
+# CSV files are treated as text
+*.csv text eol=lf
