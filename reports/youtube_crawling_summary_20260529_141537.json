@@ -1,0 +1,14 @@
+{
+    "crawl_run_timestamp": "20260529_141537",
+    "total_comments": 3742,
+    "total_columns": 13,
+    "total_unique_videos": 17,
+    "total_unique_channels": 12,
+    "min_comment_date": "2015-08-23 14:36:01+00:00",
+    "max_comment_date": "2026-05-29 07:14:24+00:00",
+    "total_like_count": 27764,
+    "total_reply_count": 2827,
+    "target_comments_min": 6000,
+    "target_comments_max": 8000,
+    "target_status": "belum_memenuhi_target_minimum"
+}
