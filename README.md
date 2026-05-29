@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # YouTube Rupiah Sentiment Analysis
 
 Project ini bertujuan untuk menganalisis sentimen komentar YouTube terhadap isu pelemahan nilai rupiah dan dampaknya terhadap persepsi daya beli masyarakat.
