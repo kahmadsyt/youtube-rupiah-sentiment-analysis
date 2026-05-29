@@ -1,0 +1,16 @@
+﻿metric,value
+source_file,youtube_comments_cleaned_20260529_150114.csv
+total_rows,3670
+total_columns,20
+missing_text_original,0
+missing_text_clean,0
+duplicate_comment_id,0
+duplicate_text_clean,9
+original_char_mean,110.3
+clean_char_mean,107.79
+original_word_mean,16.98
+clean_word_mean,17.05
+original_char_median,66.0
+clean_char_median,65.0
+original_word_median,11.0
+clean_word_median,11.0
