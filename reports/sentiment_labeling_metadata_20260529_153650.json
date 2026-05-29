@@ -1,0 +1,18 @@
+{
+    "stage": "07_sentiment_labeling_preparation",
+    "project_title": "Analisis Sentimen Komentar YouTube terhadap Isu Pelemahan Nilai Rupiah dan Dampaknya terhadap Persepsi Daya Beli Masyarakat",
+    "input_file": "youtube_comments_cleaned_20260529_150114.csv",
+    "output_labeled_file": "youtube_comments_labeled_20260529_153650.csv",
+    "total_rows": 3670,
+    "total_columns": 24,
+    "label_categories": [
+        "positif",
+        "negatif",
+        "netral"
+    ],
+    "labeling_method": "lexicon/rule-based pseudo-labeling",
+    "positive_keyword_count": 44,
+    "negative_keyword_count": 68,
+    "created_at": "2026-05-29 15:37:37",
+    "important_note": "Label yang dihasilkan adalah pseudo-label, bukan ground truth final."
+}
