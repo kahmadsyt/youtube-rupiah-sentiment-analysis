@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YouTube Rupiah Sentiment Analysis
 
 Project ini bertujuan untuk menganalisis sentimen komentar YouTube terhadap isu pelemahan nilai rupiah dan dampaknya terhadap persepsi daya beli masyarakat.
@@ -49,3 +50,7 @@ youtube-rupiah-sentiment-analysis/
 ├── environment.yml
 ├── README.md
 └── config.yaml
+=======
+# youtube-rupiah-sentiment-analysis
+Analisis Sentimen Komentar YouTube terhadap Isu Pelemahan Nilai Rupiah dan Dampaknya terhadap Persepsi Daya Beli Masyarakat Menggunakan Python, Jupyter Notebook, GitHub, dan Streamlit.
+>>>>>>> c97dddb1fbd93259ffd460a1063254a8f381c1e7
