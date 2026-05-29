@@ -1,0 +1,82 @@
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environment folders
+# =========================
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Data privacy protection
+# Ignore actual data files, but keep folder structure
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/labeled/*
+!data/labeled/.gitkeep
+
+# Dataset sample boleh masuk GitHub jika sudah dianonimkan
+data/sample/*
+!data/sample/.gitkeep
+
+# =========================
+# Model artifacts
+# =========================
+models/*
+!models/.gitkeep
+
+# =========================
+# Output files
+# =========================
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Streamlit secrets
+# =========================
+.streamlit/secrets.toml

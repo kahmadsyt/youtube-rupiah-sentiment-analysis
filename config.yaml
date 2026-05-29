@@ -1,0 +1,46 @@
+project:
+  name: "youtube-rupiah-sentiment-analysis"
+  title: "Analisis Sentimen Komentar YouTube terhadap Isu Pelemahan Nilai Rupiah"
+  language: "id"
+  topic: "rupiah, inflasi, daya beli, harga kebutuhan pokok"
+
+paths:
+  data_raw: "data/raw"
+  data_interim: "data/interim"
+  data_processed: "data/processed"
+  data_labeled: "data/labeled"
+  data_sample: "data/sample"
+  outputs_figures: "outputs/figures"
+  outputs_reports: "outputs/reports"
+  models: "models"
+
+youtube:
+  max_comments_target: 8000
+  min_clean_comments_target: 5000
+  search_keywords:
+    - "rupiah melemah"
+    - "dolar naik"
+    - "inflasi Indonesia"
+    - "harga sembako naik"
+    - "daya beli masyarakat turun"
+    - "biaya hidup naik"
+    - "rupiah terhadap dolar"
+    - "harga kebutuhan pokok"
+  max_videos_per_keyword: 3
+  max_comments_per_video: 500
+
+preprocessing:
+  remove_url: true
+  remove_emoji: true
+  lowercase: true
+  remove_punctuation: true
+  remove_stopwords: true
+  stemming: true
+
+modeling:
+  test_size: 0.2
+  random_state: 42
+  algorithms:
+    - "naive_bayes"
+    - "logistic_regression"
+    - "svm"
