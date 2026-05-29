@@ -1,0 +1,46 @@
+{
+    "stage": "08_sentiment_label_validation",
+    "stage_name": "Validasi Kualitas Label Sentimen Awal dan Analisis Distribusi Pseudo-Label",
+    "input_dataset": "youtube_comments_labeled_20260529_153650.csv",
+    "input_dataset_modified_time": "2026-05-29 15:37:10",
+    "total_rows": 3670,
+    "total_columns": 24,
+    "required_columns": [
+        "text_original",
+        "text_clean",
+        "sentiment_label"
+    ],
+    "missing_required_columns": [],
+    "allowed_labels": [
+        "negatif",
+        "netral",
+        "positif"
+    ],
+    "unique_labels_found": [
+        "negatif",
+        "netral",
+        "positif"
+    ],
+    "invalid_labels_found": [],
+    "dominant_label": "netral",
+    "dominant_count": 2425,
+    "dominant_percentage": 66.08,
+    "minority_label": "positif",
+    "minority_count": 608,
+    "minority_percentage": 16.57,
+    "imbalance_ratio": 3.99,
+    "imbalance_status": "Distribusi label cukup tidak seimbang.",
+    "strict_ambiguous_count": 2545,
+    "strict_ambiguous_percentage": 69.35,
+    "weak_signal_count": 786,
+    "weak_signal_percentage": 21.42,
+    "created_at": "2026-05-29 16:21:42",
+    "important_notes": [
+        "Pseudo-label belum dianggap sebagai ground truth final.",
+        "Distribusi label cukup tidak seimbang apabila rasio dominan terhadap minoritas berada pada kategori cukup tinggi.",
+        "Label netral yang dominan perlu dibaca secara hati-hati karena dapat berasal dari komentar yang benar-benar netral atau keterbatasan lexicon/rule-based.",
+        "Komentar dengan sinyal sentimen lemah perlu diperiksa sebelum dataset digunakan untuk modeling.",
+        "Notebook ini tidak melakukan TF-IDF, train-test split, training model, confusion matrix, atau evaluasi model machine learning.",
+        "Dataset komentar penuh tidak disimpan ulang dan tidak dipublikasikan ke GitHub."
+    ]
+}

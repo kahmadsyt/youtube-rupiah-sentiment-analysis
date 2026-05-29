@@ -1,0 +1,43 @@
+{
+    "stage": "08_sentiment_label_validation",
+    "description": "Validasi kualitas awal pseudo-label sentimen komentar YouTube",
+    "input_file_name": "youtube_comments_labeled_20260529_153650.csv",
+    "input_file_modified_time": "2026-05-29 15:37:10",
+    "total_rows": 3670,
+    "total_columns": 24,
+    "required_columns": [
+        "text_original",
+        "text_clean",
+        "sentiment_label"
+    ],
+    "missing_required_columns": [],
+    "allowed_labels": [
+        "negatif",
+        "netral",
+        "positif"
+    ],
+    "unique_labels_found": [
+        "negatif",
+        "netral",
+        "positif"
+    ],
+    "invalid_labels_found": [],
+    "total_labeled_comments": 3670,
+    "dominant_label": "netral",
+    "dominant_count": 2425,
+    "dominant_percentage": 66.08,
+    "minority_label": "positif",
+    "minority_count": 608,
+    "minority_percentage": 16.57,
+    "imbalance_ratio": 3.99,
+    "imbalance_status": "Distribusi label cukup tidak seimbang.",
+    "created_at": "2026-05-29 15:53:23",
+    "notes": [
+        "Dataset labeled hanya dibaca sebagai input.",
+        "Notebook tidak membaca file .env.",
+        "Notebook tidak menampilkan API key.",
+        "Notebook tidak menampilkan kolom author.",
+        "Ringkasan yang disimpan tidak berisi dataset komentar penuh.",
+        "Pseudo-label belum dianggap sebagai ground truth final."
+    ]
+}
