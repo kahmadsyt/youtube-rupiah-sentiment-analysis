@@ -301,3 +301,36 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 >>>>>>> c97dddb1fbd93259ffd460a1063254a8f381c1e7
+
+
+# Dataset folders
+data/raw/
+data/processed/
+data/labeled/
+data/modeling/
+
+# Local model artifacts
+models/
+artifacts/
+model_artifacts/
+
+# Serialized model files
+*.joblib
+*.pkl
+*.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local config
+.streamlit/
+
+# Added for Stage 13 - Local Streamlit Deployment
+# Environment
+*.env
+# Data folders
+# Jupyter
