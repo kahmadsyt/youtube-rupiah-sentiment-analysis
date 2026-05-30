@@ -1,0 +1,4 @@
+﻿model,model_short,delta_accuracy,delta_precision_macro,delta_recall_macro,delta_f1_macro,delta_precision_weighted,delta_recall_weighted,delta_f1_weighted
+Baseline - TF-IDF + Multinomial Naive Bayes,Naive Bayes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Improvement - TF-IDF + Logistic Regression Balanced,LogReg Balanced,0.1937,-0.0204,0.4856,0.5142,0.1143,0.1937,0.3129
+Improvement - TF-IDF + LinearSVC,LinearSVC,0.1992,0.0071,0.4626,0.5167,0.1136,0.1992,0.3155

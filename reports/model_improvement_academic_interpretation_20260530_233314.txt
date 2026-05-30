@@ -1,0 +1,55 @@
+
+INTERPRETASI AKADEMIK MODEL IMPROVEMENT SENTIMENT CLASSIFICATION
+================================================================
+
+Tahap model improvement dilakukan untuk memperbaiki kelemahan model baseline
+TF-IDF + Multinomial Naive Bayes yang sebelumnya cenderung dominan memprediksi
+kelas netral. Pada konteks klasifikasi sentimen tiga kelas, evaluasi tidak cukup
+hanya menggunakan accuracy, karena accuracy dapat terlihat cukup baik walaupun
+model gagal mengenali kelas minoritas seperti negatif dan positif.
+
+Berdasarkan hasil evaluasi, model terbaik pada tahap ini adalah:
+
+Improvement - TF-IDF + LinearSVC
+
+Ringkasan performa model terbaik:
+- Accuracy        : 0.8718
+- Precision Macro : 0.8491
+- Recall Macro    : 0.8219
+- F1-Score Macro  : 0.8347
+- F1-Score Weighted: 0.8705
+
+Dibandingkan baseline Naive Bayes:
+- Perubahan Accuracy     : +0.1992
+- Perubahan Recall Macro : +0.4626
+- Perubahan F1 Macro     : +0.5167
+
+Fokus evaluasi pada kelas negatif dan positif:
+1. Kelas negatif
+   - Recall baseline      : 0.0472
+   - Recall model terbaik : 0.7717
+   - F1 baseline          : 0.0896
+   - F1 model terbaik     : 0.8000
+
+2. Kelas positif
+   - Recall baseline      : 0.0328
+   - Recall model terbaik : 0.7705
+   - F1 baseline          : 0.0635
+   - F1 model terbaik     : 0.7966
+
+Secara akademik, model improvement dapat dinilai lebih representatif apabila
+terjadi peningkatan pada recall dan F1-score macro. Recall macro menunjukkan
+kemampuan model dalam mengenali seluruh kelas secara lebih seimbang, sedangkan
+F1-score macro menunjukkan keseimbangan antara precision dan recall tanpa
+terlalu dipengaruhi oleh dominasi kelas mayoritas.
+
+Apabila model terbaik memiliki F1 macro dan recall macro yang lebih tinggi
+dibandingkan baseline, maka model tersebut lebih layak dipilih sebagai kandidat
+model final. Namun, apabila accuracy sedikit menurun tetapi recall kelas negatif
+dan positif meningkat, kondisi tersebut masih dapat diterima karena tujuan utama
+tahap ini adalah mengurangi bias prediksi terhadap kelas netral dan meningkatkan
+kemampuan model mengenali sentimen non-netral.
+
+Dengan demikian, model terbaik pada tahap ini dapat dijadikan kandidat utama
+untuk tahap finalisasi model, sebelum dilanjutkan ke tahap penyusunan dashboard
+atau deployment menggunakan Streamlit.

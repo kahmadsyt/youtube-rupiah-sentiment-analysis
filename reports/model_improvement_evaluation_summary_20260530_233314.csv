@@ -1,0 +1,4 @@
+﻿model,accuracy,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted
+Baseline - TF-IDF + Multinomial Naive Bayes,0.6726,0.842,0.3593,0.318,0.7567,0.6726,0.555
+Improvement - TF-IDF + Logistic Regression Balanced,0.8663,0.8216,0.845,0.8322,0.8709,0.8663,0.8679
+Improvement - TF-IDF + LinearSVC,0.8718,0.8491,0.8219,0.8347,0.8703,0.8718,0.8705

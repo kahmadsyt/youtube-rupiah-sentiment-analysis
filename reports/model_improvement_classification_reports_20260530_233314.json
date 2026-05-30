@@ -1,0 +1,101 @@
+{
+    "Baseline - TF-IDF + Multinomial Naive Bayes": {
+        "negatif": {
+            "precision": 0.8571428571428571,
+            "recall": 0.047244094488188976,
+            "f1-score": 0.08955223880597014,
+            "support": 127.0
+        },
+        "netral": {
+            "precision": 0.6689750692520776,
+            "recall": 0.9979338842975206,
+            "f1-score": 0.8009950248756219,
+            "support": 484.0
+        },
+        "positif": {
+            "precision": 1.0,
+            "recall": 0.03278688524590164,
+            "f1-score": 0.06349206349206349,
+            "support": 122.0
+        },
+        "accuracy": 0.6725784447476125,
+        "macro avg": {
+            "precision": 0.8420393087983116,
+            "recall": 0.3593216213438704,
+            "f1-score": 0.3180131090578852,
+            "support": 733.0
+        },
+        "weighted avg": {
+            "precision": 0.7566726826400387,
+            "recall": 0.6725784447476125,
+            "f1-score": 0.5549805704149945,
+            "support": 733.0
+        }
+    },
+    "Improvement - TF-IDF + Logistic Regression Balanced": {
+        "negatif": {
+            "precision": 0.7291666666666666,
+            "recall": 0.8267716535433071,
+            "f1-score": 0.7749077490774908,
+            "support": 127.0
+        },
+        "netral": {
+            "precision": 0.9227467811158798,
+            "recall": 0.8884297520661157,
+            "f1-score": 0.9052631578947369,
+            "support": 484.0
+        },
+        "positif": {
+            "precision": 0.8130081300813008,
+            "recall": 0.819672131147541,
+            "f1-score": 0.8163265306122449,
+            "support": 122.0
+        },
+        "accuracy": 0.8663028649386084,
+        "macro avg": {
+            "precision": 0.8216405259546158,
+            "recall": 0.8449578455856547,
+            "f1-score": 0.8321658125281575,
+            "support": 733.0
+        },
+        "weighted avg": {
+            "precision": 0.8709421563392513,
+            "recall": 0.8663028649386084,
+            "f1-score": 0.8678751559189466,
+            "support": 733.0
+        }
+    },
+    "Improvement - TF-IDF + LinearSVC": {
+        "negatif": {
+            "precision": 0.8305084745762712,
+            "recall": 0.7716535433070866,
+            "f1-score": 0.8,
+            "support": 127.0
+        },
+        "netral": {
+            "precision": 0.8922155688622755,
+            "recall": 0.9235537190082644,
+            "f1-score": 0.9076142131979695,
+            "support": 484.0
+        },
+        "positif": {
+            "precision": 0.8245614035087719,
+            "recall": 0.7704918032786885,
+            "f1-score": 0.7966101694915254,
+            "support": 122.0
+        },
+        "accuracy": 0.8717598908594816,
+        "macro avg": {
+            "precision": 0.8490951489824395,
+            "recall": 0.8218996885313464,
+            "f1-score": 0.8347414608964984,
+            "support": 733.0
+        },
+        "weighted avg": {
+            "precision": 0.8702638510622073,
+            "recall": 0.8717598908594816,
+            "f1-score": 0.8704934786709185,
+            "support": 733.0
+        }
+    }
+}
