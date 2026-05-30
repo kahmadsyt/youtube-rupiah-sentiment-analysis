@@ -1,0 +1,5 @@
+﻿model,class,precision,recall,f1_score,support
+Tuned TF-IDF + LinearSVC,negatif,0.8571,0.7559,0.8033,127.0
+Tuned TF-IDF + LinearSVC,positif,0.8462,0.8115,0.8285,122.0
+Tuned TF-IDF + Logistic Regression Balanced,negatif,0.797,0.8346,0.8154,127.0
+Tuned TF-IDF + Logistic Regression Balanced,positif,0.8455,0.8525,0.849,122.0

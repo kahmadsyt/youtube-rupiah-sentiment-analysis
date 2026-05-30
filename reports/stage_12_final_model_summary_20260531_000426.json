@@ -1,0 +1,25 @@
+{
+    "stage": "12_model_tuning_and_finalization",
+    "final_model": "Tuned TF-IDF + Logistic Regression Balanced",
+    "selection_priority": [
+        "f1_macro",
+        "recall_macro",
+        "avg_negatif_positif_f1",
+        "f1_weighted"
+    ],
+    "final_model_metrics": {
+        "f1_macro": 0.8607,
+        "recall_macro": 0.8661,
+        "negatif_f1": 0.8154,
+        "positif_f1": 0.849,
+        "avg_negatif_positif_f1": 0.8322,
+        "negatif_recall": 0.8346,
+        "positif_recall": 0.8525,
+        "avg_negatif_positif_recall": 0.8436,
+        "f1_weighted": 0.8886,
+        "accuracy": 0.8881
+    },
+    "artifact_saved": false,
+    "artifact_note": "Model artifact belum disimpan karena pipeline TF-IDF memuat vocabulary teks. Penyimpanan artifact akan dipertimbangkan pada tahap deployment lokal.",
+    "created_at": "20260531_000426"
+}

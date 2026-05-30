@@ -1,0 +1,3 @@
+﻿model,f1_macro,recall_macro,negatif_f1,positif_f1,avg_negatif_positif_f1,negatif_recall,positif_recall,avg_negatif_positif_recall,f1_weighted,accuracy
+Tuned TF-IDF + Logistic Regression Balanced,0.8607,0.8661,0.8154,0.849,0.8322,0.8346,0.8525,0.8436,0.8886,0.8881
+Tuned TF-IDF + LinearSVC,0.8489,0.8338,0.8033,0.8285,0.8159,0.7559,0.8115,0.7837,0.8812,0.8827

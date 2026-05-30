@@ -1,0 +1,6 @@
+﻿stage,model,accuracy,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted,eligible_final_model
+Tahap 11,Baseline - TF-IDF + Multinomial Naive Bayes,0.6726,0.842,0.3593,0.318,0.7567,0.6726,0.555,False
+Tahap 11,Improvement - TF-IDF + Logistic Regression Balanced,0.8663,0.8216,0.845,0.8322,0.8709,0.8663,0.8679,False
+Tahap 11,Improvement - TF-IDF + LinearSVC,0.8718,0.8491,0.8219,0.8347,0.8703,0.8718,0.8705,False
+Tahap 12,Tuned TF-IDF + LinearSVC,0.8827,0.8667,0.8338,0.8489,0.8815,0.8827,0.8812,True
+Tahap 12,Tuned TF-IDF + Logistic Regression Balanced,0.8881,0.8557,0.8661,0.8607,0.8893,0.8881,0.8886,True
